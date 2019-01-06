@@ -14,30 +14,33 @@ This yellow pages scraper can extract the fields below:
 
 ### Prerequisites
 
-For this web scraping tutorial using Python 3, we will need some packages for downloading and parsing the HTML. 
+For this web scraping tutorial using Python 3, we will need some packages for downloading and parsing the HTML.
 Below are the package requirements:
 
- - lxml
- - requests
- - unicodecsv
- - urllib3
+- lxml
+- requests
+- unicodecsv
+- urllib3
 
 ### Installation
 
-PIP to install the following packages in Python (https://pip.pypa.io/en/stable/installing/) 
+PIP to install the following packages in Python (https://pip.pypa.io/en/stable/installing/)
 
 Python Requests, to make requests and download the HTML content of the pages (http://docs.python-requests.org/en/master/user/install/)
 
 Python LXML, for parsing the HTML Tree Structure using Xpaths (Learn how to install that here – http://lxml.de/installation.html)
 
 ## Running the scraper
+
 We would execute the code with the script name followed by the positional arguments **keyword** and **place**. Here is an example
 to find the business details for restaurants in Boston. MA.
 
 ```
 python3 yp_scraper.py restaurants Boston,MA
 ```
+
 ## Thanks to
 
 This repo is fork of https://github.com/scrapehero/yellowpages-scraper and all contribution goes to https://github.com/scrapehero
 
+![Rocky road to yellow pages](https://media.giphy.com/media/g0snGpFL6mOBaD5PmO/giphy.gif)
